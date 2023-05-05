@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14.383" height="14.048" viewBox="0 0 14.383 14.048">
+  <g id="glass" transform="translate(-4.5 -2)">
+    <path id="Path_205" data-name="Path 205" d="M13,17.5h2.677" transform="translate(-2.647 -4.963)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="Path_206" data-name="Path 206" d="M5,12.537V5.846C5,3.169,5.669,2.5,8.346,2.5" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="Path_207" data-name="Path 207" d="M23.346,12.537V5.846C23.346,3.169,22.677,2.5,20,2.5" transform="translate(-4.963)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="Path_208" data-name="Path 208" d="M10.353,14.984v2.2c0,1.338-.535,1.874-1.874,1.874H6.874C5.535,19.059,5,18.523,5,17.185v-2.2c0-1.338.535-1.874,1.874-1.874H8.48C9.818,13.11,10.353,13.645,10.353,14.984Z" transform="translate(0 -3.51)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="Path_209" data-name="Path 209" d="M22.353,14.984v2.2c0,1.338-.535,1.874-1.874,1.874H18.874c-1.338,0-1.874-.535-1.874-1.874v-2.2c0-1.338.535-1.874,1.874-1.874H20.48C21.818,13.11,22.353,13.645,22.353,14.984Z" transform="translate(-3.97 -3.51)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+  </g>
+</svg>
