@@ -37,7 +37,7 @@ for (let i = 0; i < alleMerkContainer.length; i++) {
 
 
 for (let i = 0; i < alleMerkContainer.length; i++) {
-    alleMerkContainer[i].addEventListener('touchleave', function() {
+    alleMerkContainer[i].addEventListener('touchend', function() {
         merkBeschrijving[i].classList.remove('display-merk-beschrijving')
     })
 }
