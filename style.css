@@ -7,6 +7,7 @@
     --neonpurpletransparant: rgba(96,85,255,0.85);
     --greyborder: #E1E1E1;
     --greytext: #707070;
+    --greytextloweropacity: rgba(112,112,112,0.7);
     --greyfooter: #FAFAFA;
 
 
@@ -1395,3 +1396,70 @@ li {
         font-size: 16px;
     }
 }
+
+
+
+
+/* CONTACT PAGINA */
+
+.contact-page-section {
+    padding: 7rem 1rem 6rem 1rem; 
+}
+
+.contact-page-section p, 
+.contact-information-container a {
+    color: var(--greytext);
+    font-size: 1.125rem;
+}
+
+.contact-page-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.contact-image-container p {
+    color: var(--greytextloweropacity);
+    text-align: center;
+    font-size: 0.75rem; 
+    margin: 1rem auto 0;
+    width: 80%;
+
+}
+
+.contact-information-container div:not(:last-child) {
+    border-bottom: 1px solid var(--greyborder);
+    padding-bottom: 2rem;
+}
+
+
+.social-icons-contact div {
+    border: 1px solid var(--greyborder);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+
+
+.social-icons-contact {
+    display: flex;
+    gap: 10px;
+}
+
+.social-link-contact {
+    height: 40px;
+}
+
+.flex-contact a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-facebook-f {
+    color: var(--bodytext);
+    font-size: 0.875rem;
+}
+
+
