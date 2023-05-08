@@ -1665,6 +1665,7 @@ li {
 
 .vacatures-paragraph {
     font-size: 1.125rem;
+    line-height: 1.77;
 }
 
 .naam-functie-container {
@@ -1716,7 +1717,7 @@ li {
 
 .name-letters {
     position: absolute;
-    top: 2px;
+    top: 5px;
     left: 14px;
     font-weight: var(--medium);
 }
@@ -1736,8 +1737,35 @@ li {
 .name-letters p:nth-child(3) {
     font-size: 6px;
 }
-.name-letters p:last-child {
+.name-letters p:nth-child(4) {
     font-size: 4px;
 }
 
 
+
+.pixel-container {
+    background-color: #FDFBF7;
+    aspect-ratio: 4/5;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    
+}
+
+.pixel-team-member {
+    width: 70%;
+}
+
+
+.vacatures-section {
+    margin-top: 5rem;
+}
+
+.mail-ons-over-ons {
+    margin-top: 2.5rem;
+    font-size: 1.125rem;
+    padding: 0.5rem 3rem;
+    background-color: var(--greybuttons);
+    border-radius: 42px;
+    display: inline-block
+}
