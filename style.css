@@ -87,7 +87,7 @@ a {
     position: fixed;
     min-width: 100%;
     display: flex;
-    border: 1px solid var(--greyborder);
+    border-bottom: 1px solid var(--greyborder);
     background-color: var(--white);
     justify-content: space-between;
     align-items: center;
@@ -413,33 +413,13 @@ footer {
 }
 
 .footer-text-container {
-    color: white;
-    padding: 2rem 10% 0 1rem;
+    color: var(--bodytext);
+    padding: 2rem 0 0 1rem;
     min-height: 240px;
-    position: relative;
 }
 
-
-.footer-text-sub-container {
-    z-index: 10;
-    position: relative;
-}
-
-.cirkle-footer {
-    background-image: linear-gradient(to bottom right, var(--neonpurple), #8EC5FC);
-    width: 60%;
-    height: 80%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 0;
-    border-radius: 0 0 100vh 0;
-    opacity: 0;
-    transition: opacity 2s;
-}
-
-.footer-text-container:hover .cirkle-footer {
-    opacity: 1;
+.footer-winkel-container {
+    border-bottom: solid 1px var(--greyborder);
 }
 
 .footer-title, .footer-cta-openingstijden {
@@ -467,6 +447,30 @@ footer {
     object-fit: cover;
 }
 
+
+@media(min-width: 768px) {
+    .footer-text-container {
+        display: flex;
+        padding: 0 0 0 80px;
+        align-items: center;
+    }
+
+    .footer-title {
+        font-size: 1.75rem;
+        margin-bottom: 1rem;
+    }
+
+    .footer-cta-openingstijden {
+        font-size: 0.875rem;
+    }
+
+    .footer-text {
+    max-width: 280px;
+    margin-bottom: 1rem;
+    font-size: 0.875rem;
+}
+
+}
 
 @media (min-width: 1000px) {
 
