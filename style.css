@@ -1702,12 +1702,42 @@ li {
     text-align: center;
     background-color: var(--neonpurple);
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: -20px;
+    left: -20px;
     height: 70px;
     width: 70px;
     border-radius: 50%;
+}
 
+.name-container p {
+    font-weight: var(--medium);
+    color: var(var(--white));
+}
+
+.name-letters {
+    position: absolute;
+    top: 2px;
+    left: 14px;
+    font-weight: var(--medium);
+}
+
+.name-letters p {
+    line-height: 1;
+    text-align: center;
+    color: white;
+}
+
+.name-letters p:first-child {
+    font-size: 16px;
+}
+.name-letters p:nth-child(2) {  
+    font-size: 12px
+}
+.name-letters p:nth-child(3) {
+    font-size: 6px;
+}
+.name-letters p:last-child {
+    font-size: 4px;
 }
 
 
