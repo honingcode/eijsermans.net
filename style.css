@@ -1769,3 +1769,100 @@ li {
     border-radius: 42px;
     display: inline-block
 }
+
+@media (min-width: 769px) {
+
+    .hero-image-over-ons {
+        max-height: 80vh;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .hero-over-ons-text-container, 
+    .section-meer-dan-25-jaar {
+        display: block;
+        margin: 6rem auto 0;
+        padding: 0;
+        max-width: 650px;
+    }
+
+    .line-art-goes {
+        max-width: 811px;
+        margin: 0 auto;
+    }
+
+    .goes-trots-container {
+        margin-top: 8rem;
+        margin-bottom: 4.5rem;
+    }
+
+    .trots-paragraph {
+        padding: 0 80px 0;
+        font-size: 2.1875rem;
+        width: 60%;
+        max-width: 800px;
+    }
+    
+    .link-over-ons-route {
+        margin-left: 80px;
+        font-size: 1.125rem;
+    }
+
+
+    .winkel-images-container {
+        display: flex;
+        align-items: baseline;
+        gap: 3rem;
+    }
+
+    .team-beschrijving-container {
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+        max-width: 650px;
+    }
+
+    .team-fotos-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 3rem;
+        padding: 0 80px;
+    }
+
+    .vacatures-section {
+        display: flex;
+    }
+
+    .vacatures-section div {
+        width: 50%;
+    }
+
+    .vacatures-section h2 {
+        text-align: right;
+        margin-right: 15%;
+        font-size: 3.375rem;
+
+    }
+
+    .vacatures-paragraph {
+        padding-right: 80px;
+        max-width: 600px;
+        font-size: 1.5rem;
+
+    }
+
+    .section-meer-dan-25-jaar h2, 
+    .hero-over-ons-text-container h2{
+        font-size: 2.375rem;
+    }
+
+    .team-beschrijving-container h2 {
+        font-size: 3rem
+    }
+
+    .team-beschrijving-container p {
+        font-size: 2rem;
+    }
+
+    .
+}
