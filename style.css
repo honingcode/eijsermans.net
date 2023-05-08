@@ -7,6 +7,7 @@
     --neonpurpletransparant: rgba(96,85,255,0.85);
     --greyborder: #E1E1E1;
     --greytext: #707070;
+    --greybuttons: #ECEDED;
     --greytextloweropacity: rgba(112,112,112,0.7);
     --greyfooter: #FAFAFA;
 
@@ -1553,5 +1554,94 @@ li {
         padding: 7rem 80px 0 80px;
     }
 
+}
+
+
+
+
+
+/* OVER ONS PAGE */
+
+.hero-over-ons-text-container {
+    margin-top: 3.5rem;
+}
+
+.hero-over-ons-text-container {
+    padding: 0 1rem 0;
+}
+
+.hero-over-ons-text-container p {
+    font-size: 1.5rem;
+    line-height: 1.66;
+}
+
+.hero-over-ons-text-container h2 {
+    font-size: 1.875rem;
+    margin-bottom: 1.75rem;
+}
+
+.section-goes-over-ons {
+    margin-top: 8rem;
+}
+
+.goes-trots-container {
+    margin-top: 4rem;
+    margin-bottom: 4.5rem;
+}
+
+.trots-paragraph {
+    padding: 0 1rem 0;
+    font-size: 1.75rem;
+}
+
+.link-over-ons-route {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-size: 1.125rem;
+    padding: 0.5rem 1rem;
+    background-color: var(--greybuttons);
+    border-radius: 42px;
+    display: inline-block;
+}
+
+
+@media (max-width: 768px) {
+
+    .winkel-images-container {
+        position: relative;
+    }
+
+    .winkel1,
+    .winkel2,
+    .winkel3 {
+        width: 49%;
+    }
+
+    .winkel2 {
+        margin-top: 1.125rem;
+    }
+
+
+    .winkel3 {
+        position: absolute;
+        right: 0;
+        bottom: 10%;
+    }
+}
+
+
+.section-meer-dan-25-jaar {
+    padding: 0 1rem 0;
+    margin-top: 6.5rem;
+}
+
+.section-meer-dan-25-jaar h2 {
+    font-size: 1.875rem;
+    padding-right: 40%;
+    margin-bottom: 2rem;
+}
+
+.section-meer-dan-25-jaar p {
+    font-size: 1.5rem;
 }
 
