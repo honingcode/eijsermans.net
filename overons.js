@@ -1,7 +1,7 @@
 let paths = document.querySelectorAll('path');
 
 
-const element = document.getElementById('section-goes-over-ons');
+const element = document.getElementById('line-art-animation');
 const elementTop = element.getBoundingClientRect().top + window.scrollY;
 const elementHeight = element.clientHeight;
 const windowHeight = window.innerHeight;
@@ -16,13 +16,8 @@ function fillSvgPaths() {
     
 
     const scrollTop = window.scrollY;
-
-    let a = (elementTop - scrollTop)
-    let b = (elementHeight - windowHeight)
-    const scrollPercentage = Math.max(0, Math.min(100, (scrollTop - elementTop) / (elementHeight - windowHeight) * 100));
-
-    console.log(a)
-    console.log(b)
+    const scrollPercentage = Math.max(0, Math.min(1, (scrollTop - elementTop) / (elementHeight - windowHeight)));
+    console.log(scrollPercentage);
 
 
 
