@@ -855,7 +855,7 @@ li {
     cursor: pointer;
   }
 
-  .li-nav-template p:hover, .li-nav-template p:focus {
+  .li-nav-template p:hover {
     color: var(--neonpurple);
   }
 
