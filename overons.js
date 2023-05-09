@@ -19,7 +19,7 @@ function fillSvgPaths() {
 
     let a = (elementTop - scrollTop)
     let b = (elementHeight - windowHeight)
-    const scrollPercentage = Math.max(0, Math.min(1, (elementTop - scrollTop) / (elementHeight - windowHeight)));
+    const scrollPercentage = Math.max(0, Math.min(100, (scrollTop - elementTop) / (elementHeight - windowHeight) * 100));
 
     console.log(a)
     console.log(b)
