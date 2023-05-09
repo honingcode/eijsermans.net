@@ -1867,3 +1867,12 @@ li {
 }
 
 
+.section-goes-over-ons svg path {
+    stroke-dasharray: 0;
+    stroke-dashoffset: 0;
+    stroke-width: 1;
+    stroke: #1c252f;
+    stroke-width: 1;
+    transition: stroke-dashoffset 1s;
+}
+

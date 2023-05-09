@@ -15,7 +15,7 @@ document.addEventListener('scroll', fillSvgPaths)
 function fillSvgPaths() {
 
     const scrollTop = window.scrollY;
-    const scrollPercentage = Math.max(0, Math.min(1, (scrollTop - elementTop) / (elementHeight - windowHeight)));
+    const scrollPercentage = Math.max(0, Math.min(1, (elementTop - scrollTop) / (elementHeight - windowHeight)));
     console.log(scrollPercentage)
 
     for (var i = 0; i < paths.length; i++) {
