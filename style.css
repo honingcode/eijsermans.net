@@ -1477,6 +1477,8 @@ li {
 .merk-beschrijving p {
     color: white;
     font-size: 10px;
+    font-weight: var(--normal);
+
 }
 
 .merk-beschrijving {
@@ -1501,6 +1503,32 @@ li {
 
 #merk-container {
     transform: all 3s;
+}
+
+
+
+@media (max-width: 400px) {
+
+    .merk-beschrijving p {
+        font-size: 8px;
+    }
+    
+}
+
+@media (max-width: 325px) {
+
+    .merk-beschrijving p {
+        font-size: 6px;
+    }
+    
+}
+
+@media (max-width: 599px) {
+
+    .merk-beschrijving {
+        padding: 0rem 1rem;
+    }
+    
 }
 
 @media (min-width: 600px) {
