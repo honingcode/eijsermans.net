@@ -1230,6 +1230,17 @@ li {
 
 /* AANDOENINGEN PAGINA */
 
+.aandoening-link {
+    width: 100%;
+    padding-top: 0.875rem;
+    padding-bottom: 0.875rem;
+}
+
+.laatste-aandoening {
+    padding-top: 0.875rem;
+    padding-bottom: 0.875rem;
+}
+
 .aandoeningen-container {
     padding: 1rem;
 }
@@ -1237,8 +1248,6 @@ li {
 .aandoeningen-container .aandoening {
     border: 2px solid var(--neonpurple);
     text-align: center;
-    padding-top: 0.875rem;
-    padding-bottom: 0.875rem;
     border-radius: 7px;
     margin-bottom: 10px;
 }
