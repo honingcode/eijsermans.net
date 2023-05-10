@@ -1540,6 +1540,13 @@ li {
 }
 
 
+@media (min-width: 1200px) and (max-width: 1350px ) {
+    .merk-beschrijving p {
+        font-size: 12px;
+    }
+}
+
+
 
 
 /* CONTACT PAGINA */
