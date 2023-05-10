@@ -1067,7 +1067,7 @@ li {
 }
 
 .border {
-    border:1px solid var(--greyborder);
+    border-bottom:1px solid var(--greyborder);
     margin: 1.5rem 1rem 1.125rem 1rem;
 }
 
