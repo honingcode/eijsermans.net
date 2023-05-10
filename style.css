@@ -244,7 +244,11 @@ a {
     }
 
     .usp-sub-section h3 {
-        font-size: 1.5rem;
+        font-size: 22px;
+    }
+
+    .usp-sub-section p {
+        font-size: 1rem;
     }
 }
 
@@ -258,6 +262,7 @@ a {
 
 .oogzorg-brillen-cta-title {
     margin-bottom: 0.825rem;
+    font-size: 2rem;
 }
 
 .oogzorg-brillen-cta-paragraph {
@@ -325,6 +330,15 @@ a {
         padding: 0 20% 0 80px;
     }
 
+    .oogzorg-brillen-cta-title {
+        font-size: 3.125rem;
+        margin-bottom: 1rem;
+    }
+
+    .oogzorg-brillen-cta-paragraph {
+        margin: 0 0 3rem 0;
+    }
+
 }
 
 
@@ -337,7 +351,7 @@ a {
     display: flex;
     align-items: start;
     justify-content: center;
-    margin-top: 11em;
+    margin-top: 9rem;
     padding: 0 11em;
 }
 
@@ -411,7 +425,7 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 6em;
+    margin-top: 4rem;
     padding: 0 1.3125em;
 }
 
