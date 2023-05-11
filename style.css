@@ -858,11 +858,45 @@ li {
     }
 
     .logos-slider-img {
-        width: 20%;
+        width: 50%;
         min-width: 50px;
 
     }
-  
+
+    .logo-slider-img-mobile {
+        width: 40%;
+        min-width: 45px;
+
+    }
+
+    .slider-container-mobile {
+        display: none;
+    }
+
+    @media (max-width: 768px) {
+        .slider-container-desktop {
+            display: none;
+        }
+
+        .slider-container-mobile {
+            display: block;
+        }
+    }
+
+    @media (min-width: 440px) and (max-width: 768px) {
+        .logo-slider-img-mobile {
+            width: 35%;
+            min-width: 50px;
+    
+        }
+    }
+
+    @media (max-width: 320px) {
+        .slider-container-mobile {
+            display: none;
+        }
+    }
+   
   @keyframes slidein {
     from {
       transform: translate3d(0, 0, 0);
