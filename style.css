@@ -848,9 +848,8 @@ li {
     }
 
     .logos-slider-img {
-        width: 20%;
-        max-width: 100px;
-        min-width: 30px;
+        width: 50%;
+
     }
   
   @keyframes slidein {
