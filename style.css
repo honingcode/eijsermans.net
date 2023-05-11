@@ -2023,3 +2023,7 @@ li {
     transition: stroke-dashoffset 1s;
 }
 
+
+.icons-container-faq img {
+    pointer-events: none;
+}
