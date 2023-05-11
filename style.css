@@ -844,6 +844,10 @@ li {
     .fab {
         vertical-align:middle;
     }
+
+    .fab-mobile {
+        vertical-align: bottom;
+    }
     
     .fab {
           width: calc(100% / 5);
@@ -858,8 +862,8 @@ li {
     }
 
     .logos-slider-img {
-        width: 50%;
-        min-width: 50px;
+        width: 30%;
+        min-width: 60px;
 
     }
 
