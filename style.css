@@ -764,9 +764,23 @@ li {
     display: block;
     transition: 0.3s;
   }
+
+  .sidenav p {
+    color: var(--bodytext);
+    display: block;
+    transition: 0.3s;
+    font-size: 1.125rem;
+    font-weight: var(--medium);
+  }
+
+  @media (min-width: 768px) {
+    .sidenav p {
+        font-size: 1.25rem;
+      }
+  }
   
   /* When you mouse over the navigation links, change their color */
-  .sidenav h3:hover, .sidenav a:hover {
+  .sidenav h3:hover, .sidenav a:hover, .sidenav p:hover {
     color: var(--neonpurple);
   }
   
