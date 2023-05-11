@@ -2075,3 +2075,20 @@ li {
 .icons-container-faq img {
     pointer-events: none;
 }
+
+
+
+.button-purple-link {
+    border-radius: 7px;
+    background-color: var(--neonpurple);
+    color: var(--white);
+    border: none;
+    display: inline-block;
+    padding: 8px 25px;
+    cursor: pointer;
+}
+
+.button-purple-link div {
+    display: flex;
+    gap: 15px;
+}
