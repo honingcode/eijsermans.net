@@ -957,9 +957,9 @@ li {
     margin-top: 4rem;
   }
 
-  .template-hero-container p, .template-main-container p {
+  /* .template-hero-container p, .template-main-container p {
     font-size: 0.875rem;
-  }
+  } */
 
   .template-main-container div:not(:first-child) {
     margin-top: 2rem;
