@@ -2092,3 +2092,9 @@ li {
     display: flex;
     gap: 15px;
 }
+
+
+
+.margin-top-list {
+    margin-top: 1.5rem;
+}
