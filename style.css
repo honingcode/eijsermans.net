@@ -944,10 +944,12 @@ li {
   }
 
   .template-h2 {
-    font-size: 1.125rem;
+    font-size: 1.75rem;
     color: var(--neonpurple);
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
+
+  
 
   .template-button {
     margin-top: 2rem;
