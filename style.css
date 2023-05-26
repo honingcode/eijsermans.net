@@ -1671,7 +1671,7 @@ li {
     transition: background-color 2s;
 }
 
-.fa-facebook-f {
+.fa-facebook-f, .fa-instagram {
     transition: color 2s;
 }
 
@@ -1680,6 +1680,10 @@ li {
 }
 
 .flex-contact:hover .fa-facebook-f  {
+    color: var(--white);
+}
+
+.flex-contact:hover .fa-instagram {
     color: var(--white);
 }
 
@@ -1703,6 +1707,10 @@ li {
 .fa-facebook-f {
     color: var(--bodytext);
     font-size: 0.875rem;
+}
+
+.fa-instagram {
+    color: var(--bodytext);
 }
 
 
