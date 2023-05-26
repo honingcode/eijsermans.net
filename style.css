@@ -1261,6 +1261,9 @@ li {
 }
 
 
+@media (min-width: 1000px) {
+
+
 #clickthroughimagecontainer1 img{
     filter: url(#noise1);
 }
@@ -1293,7 +1296,7 @@ li {
 
 }
 
-
+}
 
 
 /* AANDOENINGEN PAGINA */
