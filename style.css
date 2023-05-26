@@ -1178,6 +1178,12 @@ li {
     font-size: 1.125rem;
     color: var(--white); 
 }
+.click-through-bottom-text {
+    font-size: 1.125rem;
+    color: var(--white); 
+}
+
+
 
 .fa-arrow-right {
     font-size: 1.125rem;
