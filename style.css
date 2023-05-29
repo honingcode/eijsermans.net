@@ -151,6 +151,10 @@ a {
     padding: 0 80px;
 }
 
+.hero-text a {
+    color: var(--white);
+}
+
 .hero-image-container {
     position: relative;
 }
