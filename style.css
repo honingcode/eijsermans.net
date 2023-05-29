@@ -255,6 +255,28 @@ a {
     }
 }
 
+@media (min-width: 1200px) {
+    .usp-sub-section {
+        max-width: 210px;
+    }
+
+    .usps {
+        gap: 20px;
+    }
+    
+}
+
+@media (min-width: 1338px) {
+    .usp-sub-section {
+        max-width: 240px;
+    }
+
+    .usps {
+        gap: 2rem;
+    }
+    
+}
+
 
 
 /* OOGZORG SECTION  */
