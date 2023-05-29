@@ -1989,6 +1989,70 @@ li {
 }
 
 
+@media (min-width: 1100px) {
+
+.name-container {
+    height: 100px;
+    width: 100px;
+}
+
+.name-letters {
+    top: 5px;
+    left: 25px;
+    font-weight: var(--medium);
+}
+
+.name-letters p {
+    line-height: 1;
+}
+
+.name-letters p:first-child {
+    font-size: 24px;
+}
+.name-letters p:nth-child(2) {  
+    font-size: 18px
+}
+.name-letters p:nth-child(3) {
+    font-size: 12px;
+}
+.name-letters p:nth-child(4) {
+    font-size: 8px;
+}
+
+}
+
+@media (min-width: 1600px) {
+
+.name-container {
+    height: 135px;
+    width: 135px;
+}
+
+.name-letters {
+    top: 10px;
+    left: 38px;
+    font-weight: var(--medium);
+}
+
+.name-letters p {
+    line-height: 1;
+}
+
+.name-letters p:first-child {
+    font-size: 36px;
+}
+.name-letters p:nth-child(2) {  
+    font-size: 24px
+}
+.name-letters p:nth-child(3) {
+    font-size: 16px;
+}
+.name-letters p:nth-child(4) {
+    font-size: 12px;
+}
+
+}
+
 
 .pixel-container {
     background-color: #FDFBF7;
