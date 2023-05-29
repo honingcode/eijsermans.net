@@ -1411,6 +1411,10 @@ li {
 
 /* Gradient Button  */
 
+@media (min-width: 1000px) {
+
+
+
 .eerste-aandoening, 
 .aandoening2,
 .aandoening3,
@@ -1498,6 +1502,8 @@ li {
 .laatste-aandoening div {
     z-index: 2;
     position: relative;
+}
+
 }
 
 
