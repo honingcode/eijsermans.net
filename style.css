@@ -1213,6 +1213,7 @@ li {
 @media (max-width: 500px) {
     .click-through-top-text {
         font-size: 0.6rem;
+        line-height: 1;
     }
 
     .link-click-through-container {
