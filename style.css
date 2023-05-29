@@ -1210,6 +1210,17 @@ li {
     color: var(--white); 
 }
 
+@media (max-width: 500px) {
+    .click-through-top-text {
+        font-size: 0.6rem;
+    }
+
+    .link-click-through-container {
+        bottom: 1rem;
+        left: 1rem;
+    }
+}
+
 
 
 .fa-arrow-right {
