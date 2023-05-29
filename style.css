@@ -1220,6 +1220,10 @@ li {
         bottom: 1rem;
         left: 1rem;
     }
+
+    .click-through-bottom-text {
+        line-height: 1.25;
+    }
 }
 
 
