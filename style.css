@@ -227,6 +227,37 @@ a {
     margin-bottom: 0.625rem;
 }
 
+
+
+
+
+
+
+@media (max-width: 450px) {
+
+    .usp-section {
+        text-align: left;
+    }
+
+    .usp-icon {
+        margin: 0 0 1rem 0;
+        height: 42px;
+    }
+
+    .last-usp-icon {
+        padding-left: 0;
+    }
+
+
+}
+
+
+
+
+
+
+
+
 @media (max-width: 450px) {
     .usp-sub-section {
         width: 45%;
