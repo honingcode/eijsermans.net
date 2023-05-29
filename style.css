@@ -2235,3 +2235,12 @@ li {
 .iframe-optometrie {
     margin-top: 2rem;
 }
+
+
+.section-404 {
+    height: 75svh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
